@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34010A689937C9684A7C5264 /* Pods_AWELoaderDemoiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D62C365D8B130F283A4221 /* Pods_AWELoaderDemoiOS.framework */; };
+		CE38508F221DA1D5000F1CCF /* AWELoader.h in Headers */ = {isa = PBXBuildFile; fileRef = EF32BF6E21E8605500FFB355 /* AWELoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF32BF7E21E8609600FFB355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32BF7D21E8609600FFB355 /* AppDelegate.m */; };
+		EF32BF8121E8609600FFB355 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32BF8021E8609600FFB355 /* ViewController.m */; };
+		EF32BF8421E8609600FFB355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF32BF8221E8609600FFB355 /* Main.storyboard */; };
+		EF32BF8621E8609700FFB355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF32BF8521E8609700FFB355 /* Assets.xcassets */; };
+		EF32BF8921E8609700FFB355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF32BF8721E8609700FFB355 /* LaunchScreen.storyboard */; };
+		EF32BF8C21E8609700FFB355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32BF8B21E8609700FFB355 /* main.m */; };
+		EF32BF9A21E8637600FFB355 /* AWELoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32BF9221E8636D00FFB355 /* AWELoadManager.m */; };
+		EF32BF9B21E8637600FFB355 /* AWELoaderStore.h in Headers */ = {isa = PBXBuildFile; fileRef = EF32BF9321E8636D00FFB355 /* AWELoaderStore.h */; };
+		EF32BF9C21E8637600FFB355 /* AWEmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EF32BF9421E8636D00FFB355 /* AWEmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF32BF9E21E8637600FFB355 /* AWELoaderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32BF9621E8636D00FFB355 /* AWELoaderStore.m */; };
+		EF32BF9F21E8637600FFB355 /* AWELoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EF32BF9721E8636D00FFB355 /* AWELoadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF32BFA021E8637600FFB355 /* AWELoaderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EF32BF9821E8636D00FFB355 /* AWELoaderInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF32BFA721E8794400FFB355 /* TestEnv.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32BFA421E8794400FFB355 /* TestEnv.m */; };
+		EF32BFA821E8794400FFB355 /* TestArgsCount.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32BFA521E8794400FFB355 /* TestArgsCount.m */; };
+		EF32BFAC21E8976E00FFB355 /* TestCXX.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF85A63F4D199AC5870255F7 /* TestCXX.mm */; };
+		EF32BFAF21E8C6A500FFB355 /* AWEEntryItemBase.h in Headers */ = {isa = PBXBuildFile; fileRef = EF32BFAD21E8C6A500FFB355 /* AWEEntryItemBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF32BFB021E8C6A500FFB355 /* AWEEntryItemBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32BFAE21E8C6A500FFB355 /* AWEEntryItemBase.m */; };
+		EF32BFB321E8C9B600FFB355 /* TestBan.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32BFB221E8C9B600FFB355 /* TestBan.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A91EA9CE8571A334F8B3D52 /* Pods-AWELoaderDemoiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWELoaderDemoiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWELoaderDemoiOS/Pods-AWELoaderDemoiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BF85A63F4D199AC5870255F7 /* TestCXX.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TestCXX.mm; sourceTree = "<group>"; };
+		BF85AC5303B65587E0E55516 /* TestCXX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCXX.h; sourceTree = "<group>"; };
+		C8D62C365D8B130F283A4221 /* Pods_AWELoaderDemoiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWELoaderDemoiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EBC29B9466001EE0570B3C /* Pods-AWELoaderDemoiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWELoaderDemoiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWELoaderDemoiOS/Pods-AWELoaderDemoiOS.release.xcconfig"; sourceTree = "<group>"; };
+		EF32BF6B21E8605500FFB355 /* AWELoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWELoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF32BF6E21E8605500FFB355 /* AWELoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWELoader.h; sourceTree = "<group>"; };
+		EF32BF6F21E8605500FFB355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF32BF7A21E8609600FFB355 /* AWELoaderDemoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWELoaderDemoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF32BF7C21E8609600FFB355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF32BF7D21E8609600FFB355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF32BF7F21E8609600FFB355 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF32BF8021E8609600FFB355 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF32BF8321E8609600FFB355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF32BF8521E8609700FFB355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF32BF8821E8609700FFB355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF32BF8A21E8609700FFB355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF32BF8B21E8609700FFB355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF32BF9221E8636D00FFB355 /* AWELoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWELoadManager.m; sourceTree = "<group>"; };
+		EF32BF9321E8636D00FFB355 /* AWELoaderStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWELoaderStore.h; sourceTree = "<group>"; };
+		EF32BF9421E8636D00FFB355 /* AWEmetamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEmetamacros.h; sourceTree = "<group>"; };
+		EF32BF9621E8636D00FFB355 /* AWELoaderStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWELoaderStore.m; sourceTree = "<group>"; };
+		EF32BF9721E8636D00FFB355 /* AWELoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWELoadManager.h; sourceTree = "<group>"; };
+		EF32BF9821E8636D00FFB355 /* AWELoaderInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWELoaderInternal.h; sourceTree = "<group>"; };
+		EF32BFA421E8794400FFB355 /* TestEnv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestEnv.m; sourceTree = "<group>"; };
+		EF32BFA521E8794400FFB355 /* TestArgsCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestArgsCount.m; sourceTree = "<group>"; };
+		EF32BFAD21E8C6A500FFB355 /* AWEEntryItemBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWEEntryItemBase.h; sourceTree = "<group>"; };
+		EF32BFAE21E8C6A500FFB355 /* AWEEntryItemBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWEEntryItemBase.m; sourceTree = "<group>"; };
+		EF32BFB121E8C9B600FFB355 /* TestBan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBan.h; sourceTree = "<group>"; };
+		EF32BFB221E8C9B600FFB355 /* TestBan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBan.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF32BF6821E8605500FFB355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF32BF7721E8609600FFB355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34010A689937C9684A7C5264 /* Pods_AWELoaderDemoiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76C00E8BBCC7B3A73C4ED05F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A91EA9CE8571A334F8B3D52 /* Pods-AWELoaderDemoiOS.debug.xcconfig */,
+				D3EBC29B9466001EE0570B3C /* Pods-AWELoaderDemoiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF32BF6121E8605500FFB355 = {
+			isa = PBXGroup;
+			children = (
+				EF32BF6D21E8605500FFB355 /* AWELoader */,
+				EF32BF7B21E8609600FFB355 /* AWELoaderDemoiOS */,
+				EF32BF6C21E8605500FFB355 /* Products */,
+				EF32BFA121E86AC100FFB355 /* Frameworks */,
+				76C00E8BBCC7B3A73C4ED05F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EF32BF6C21E8605500FFB355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF32BF6B21E8605500FFB355 /* AWELoader.framework */,
+				EF32BF7A21E8609600FFB355 /* AWELoaderDemoiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF32BF6D21E8605500FFB355 /* AWELoader */ = {
+			isa = PBXGroup;
+			children = (
+				EF32BF9021E8636D00FFB355 /* Classes */,
+				EF32BF6F21E8605500FFB355 /* Info.plist */,
+			);
+			path = AWELoader;
+			sourceTree = "<group>";
+		};
+		EF32BF7B21E8609600FFB355 /* AWELoaderDemoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF32BFA321E8794400FFB355 /* Test */,
+				EF32BF7C21E8609600FFB355 /* AppDelegate.h */,
+				EF32BF7D21E8609600FFB355 /* AppDelegate.m */,
+				EF32BF7F21E8609600FFB355 /* ViewController.h */,
+				EF32BF8021E8609600FFB355 /* ViewController.m */,
+				EF32BF8221E8609600FFB355 /* Main.storyboard */,
+				EF32BF8521E8609700FFB355 /* Assets.xcassets */,
+				EF32BF8721E8609700FFB355 /* LaunchScreen.storyboard */,
+				EF32BF8A21E8609700FFB355 /* Info.plist */,
+				EF32BF8B21E8609700FFB355 /* main.m */,
+			);
+			path = AWELoaderDemoiOS;
+			sourceTree = "<group>";
+		};
+		EF32BF9021E8636D00FFB355 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF32BFAB21E894EB00FFB355 /* Header */,
+				EF32BF9321E8636D00FFB355 /* AWELoaderStore.h */,
+				EF32BF9621E8636D00FFB355 /* AWELoaderStore.m */,
+				EF32BF9221E8636D00FFB355 /* AWELoadManager.m */,
+				EF32BFAE21E8C6A500FFB355 /* AWEEntryItemBase.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EF32BFA121E86AC100FFB355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8D62C365D8B130F283A4221 /* Pods_AWELoaderDemoiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF32BFA321E8794400FFB355 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				EF32BFA421E8794400FFB355 /* TestEnv.m */,
+				EF32BFA521E8794400FFB355 /* TestArgsCount.m */,
+				BF85A63F4D199AC5870255F7 /* TestCXX.mm */,
+				BF85AC5303B65587E0E55516 /* TestCXX.h */,
+				EF32BFB121E8C9B600FFB355 /* TestBan.h */,
+				EF32BFB221E8C9B600FFB355 /* TestBan.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		EF32BFAB21E894EB00FFB355 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				EF32BF6E21E8605500FFB355 /* AWELoader.h */,
+				EF32BF9821E8636D00FFB355 /* AWELoaderInternal.h */,
+				EF32BF9421E8636D00FFB355 /* AWEmetamacros.h */,
+				EF32BF9721E8636D00FFB355 /* AWELoadManager.h */,
+				EF32BFAD21E8C6A500FFB355 /* AWEEntryItemBase.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EF32BF6621E8605500FFB355 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF32BF9F21E8637600FFB355 /* AWELoadManager.h in Headers */,
+				EF32BFA021E8637600FFB355 /* AWELoaderInternal.h in Headers */,
+				CE38508F221DA1D5000F1CCF /* AWELoader.h in Headers */,
+				EF32BF9C21E8637600FFB355 /* AWEmetamacros.h in Headers */,
+				EF32BFAF21E8C6A500FFB355 /* AWEEntryItemBase.h in Headers */,
+				EF32BF9B21E8637600FFB355 /* AWELoaderStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EF32BF6A21E8605500FFB355 /* AWELoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF32BF7321E8605500FFB355 /* Build configuration list for PBXNativeTarget "AWELoader" */;
+			buildPhases = (
+				EF32BF6621E8605500FFB355 /* Headers */,
+				EF32BF6721E8605500FFB355 /* Sources */,
+				EF32BF6821E8605500FFB355 /* Frameworks */,
+				EF32BF6921E8605500FFB355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWELoader;
+			productName = AWELoader;
+			productReference = EF32BF6B21E8605500FFB355 /* AWELoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF32BF7921E8609600FFB355 /* AWELoaderDemoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF32BF8D21E8609700FFB355 /* Build configuration list for PBXNativeTarget "AWELoaderDemoiOS" */;
+			buildPhases = (
+				EF7B584BDC56072E943CBB0F /* [CP] Check Pods Manifest.lock */,
+				EF32BF7621E8609600FFB355 /* Sources */,
+				EF32BF7721E8609600FFB355 /* Frameworks */,
+				EF32BF7821E8609600FFB355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWELoaderDemoiOS;
+			productName = AWELoaderDemoiOS;
+			productReference = EF32BF7A21E8609600FFB355 /* AWELoaderDemoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF32BF6221E8605500FFB355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AwayQu;
+				TargetAttributes = {
+					EF32BF6A21E8605500FFB355 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EF32BF7921E8609600FFB355 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EF32BF6521E8605500FFB355 /* Build configuration list for PBXProject "AWELoader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF32BF6121E8605500FFB355;
+			productRefGroup = EF32BF6C21E8605500FFB355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF32BF6A21E8605500FFB355 /* AWELoader */,
+				EF32BF7921E8609600FFB355 /* AWELoaderDemoiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF32BF6921E8605500FFB355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF32BF7821E8609600FFB355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF32BF8921E8609700FFB355 /* LaunchScreen.storyboard in Resources */,
+				EF32BF8621E8609700FFB355 /* Assets.xcassets in Resources */,
+				EF32BF8421E8609600FFB355 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF7B584BDC56072E943CBB0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWELoaderDemoiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF32BF6721E8605500FFB355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF32BF9A21E8637600FFB355 /* AWELoadManager.m in Sources */,
+				EF32BF9E21E8637600FFB355 /* AWELoaderStore.m in Sources */,
+				EF32BFB021E8C6A500FFB355 /* AWEEntryItemBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF32BF7621E8609600FFB355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF32BF8121E8609600FFB355 /* ViewController.m in Sources */,
+				EF32BFA721E8794400FFB355 /* TestEnv.m in Sources */,
+				EF32BFB321E8C9B600FFB355 /* TestBan.m in Sources */,
+				EF32BFA821E8794400FFB355 /* TestArgsCount.m in Sources */,
+				EF32BF8C21E8609700FFB355 /* main.m in Sources */,
+				EF32BF7E21E8609600FFB355 /* AppDelegate.m in Sources */,
+				EF32BFAC21E8976E00FFB355 /* TestCXX.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF32BF8221E8609600FFB355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF32BF8321E8609600FFB355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF32BF8721E8609700FFB355 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF32BF8821E8609700FFB355 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF32BF7121E8605500FFB355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF32BF7221E8605500FFB355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF32BF7421E8605500FFB355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AWELoader/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1024ul.AWELoader;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF32BF7521E8605500FFB355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AWELoader/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1024ul.AWELoader;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF32BF8E21E8609700FFB355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A91EA9CE8571A334F8B3D52 /* Pods-AWELoaderDemoiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/AWELoaderDemoiOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.1024ul.AWELoaderDemoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF32BF8F21E8609700FFB355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EBC29B9466001EE0570B3C /* Pods-AWELoaderDemoiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/AWELoaderDemoiOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.1024ul.AWELoaderDemoiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF32BF6521E8605500FFB355 /* Build configuration list for PBXProject "AWELoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF32BF7121E8605500FFB355 /* Debug */,
+				EF32BF7221E8605500FFB355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF32BF7321E8605500FFB355 /* Build configuration list for PBXNativeTarget "AWELoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF32BF7421E8605500FFB355 /* Debug */,
+				EF32BF7521E8605500FFB355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF32BF8D21E8609700FFB355 /* Build configuration list for PBXNativeTarget "AWELoaderDemoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF32BF8E21E8609700FFB355 /* Debug */,
+				EF32BF8F21E8609700FFB355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF32BF6221E8605500FFB355 /* Project object */;
+}

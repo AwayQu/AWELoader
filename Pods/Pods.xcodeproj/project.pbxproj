@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D7262ADC5DDE3665E4E72D5E7DBD4C6 /* AWEEntryItemBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3DB8F675CFCBDDE92A28008406F61E /* AWEEntryItemBase.m */; };
+		1FC6C07E47678EB83350ECB53F7023E1 /* AWEEntryItemBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7497944C7F035FBEAC9BD0DD36C3EE /* AWEEntryItemBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2940A0F15DDB02C534F1C2A6367B54C7 /* AWELoaderInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = BF24EAB9AFA96E5A2BB34B72D42F9126 /* AWELoaderInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A9B62CFE4D346969744AB3E1AE893C6 /* AWEmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEA52CA61B222D0DC75CAF21DF96DCA /* AWEmetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F98AD9C06A3BCA382C894EF7F46E187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		81DC710E78E00715F87D9544B14B50FD /* AWELoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F35F5E6D815BE5EFF604A20E0E352A5D /* AWELoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		951E4C0635E9DD0D482F13B5A27B446B /* AWELoaderStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B52337AE0F1E1E99BBE0CA50FB2BD22F /* AWELoaderStore.m */; };
+		9BFD793F1F1211E3E1B7A4D3E1B22BBB /* Pods-AWELoaderDemoiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D69A2F85493D2863745B633620835AD0 /* Pods-AWELoaderDemoiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A34D2C7EAD461E272A15D046DF5A2736 /* AWELoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 456CF2DAA56873ACC03A19D5C01B9CF1 /* AWELoadManager.m */; };
+		BECB92140319C16BB4AC476E584C537E /* AWELoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FB8D819A33F4A8B3F321F8F4B788F3 /* AWELoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0804D5FEC2822AAB68AEFEA87A8F5F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DAE114FC5945E163217BF9BBEAC4DF2C /* AWELoaderStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C9296B69C5DA4FB6D0D5C85834FEEC /* AWELoaderStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF62642C2CA8FF366923E165B3ADF97B /* Pods-AWELoaderDemoiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 975813D2D74333E1E4D10BBB9D146BA4 /* Pods-AWELoaderDemoiOS-dummy.m */; };
+		E52A48EBCF7E28264A41E7C58EC766C7 /* AWELoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24199070ABBD2821BE97B8A56358C0 /* AWELoader-dummy.m */; };
+		F18C9CC8DDF0D1AAC68E28A84141C78E /* AWELoadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CBB7CFD011C8CD33FE1326581A1C6D /* AWELoadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53C4952AC53C05E2DE7F671CEDFC45F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C89DCF09372E8114FEA18A53F58EE585;
+			remoteInfo = AWELoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CEA52CA61B222D0DC75CAF21DF96DCA /* AWEmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWEmetamacros.h; sourceTree = "<group>"; };
+		1C2A0599E2A50C61A7E1F18D91DF5C85 /* Pods-AWELoaderDemoiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AWELoaderDemoiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D671C3219285B062CC1E27E40B3ACCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		38E6660BC4A7C494774813207930AB54 /* Pods-AWELoaderDemoiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWELoaderDemoiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3A3CDA110F8B7ADE4F86102A0F8036CB /* AWELoader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AWELoader.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		404DFD4713530C5E10CE0BC0845EB950 /* Pods_AWELoaderDemoiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AWELoaderDemoiOS.framework; path = "Pods-AWELoaderDemoiOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		456CF2DAA56873ACC03A19D5C01B9CF1 /* AWELoadManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWELoadManager.m; path = AWELoader/Classes/AWELoadManager.m; sourceTree = "<group>"; };
+		4B5F757B39EDCC35071CBC16A18C6A39 /* AWELoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AWELoader.modulemap; sourceTree = "<group>"; };
+		4E24199070ABBD2821BE97B8A56358C0 /* AWELoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AWELoader-dummy.m"; sourceTree = "<group>"; };
+		4FCC091A34F04D25E7601FFF952D7258 /* Pods-AWELoaderDemoiOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWELoaderDemoiOS-frameworks.sh"; sourceTree = "<group>"; };
+		504F9F59B3354FAD25FF0BEE6EF7B805 /* Pods-AWELoaderDemoiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AWELoaderDemoiOS.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A1DFD18E63434004A643B59EE011BEB /* Pods-AWELoaderDemoiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AWELoaderDemoiOS.modulemap"; sourceTree = "<group>"; };
+		80C9296B69C5DA4FB6D0D5C85834FEEC /* AWELoaderStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWELoaderStore.h; path = AWELoader/Classes/AWELoaderStore.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93FB8D819A33F4A8B3F321F8F4B788F3 /* AWELoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWELoader.h; sourceTree = "<group>"; };
+		9447FC02B3E840DAA77CA33F09B63CFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D72233BF94E1710C6838C89F153B9A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		975813D2D74333E1E4D10BBB9D146BA4 /* Pods-AWELoaderDemoiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AWELoaderDemoiOS-dummy.m"; sourceTree = "<group>"; };
+		9F7497944C7F035FBEAC9BD0DD36C3EE /* AWEEntryItemBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWEEntryItemBase.h; sourceTree = "<group>"; };
+		A6CBB7CFD011C8CD33FE1326581A1C6D /* AWELoadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWELoadManager.h; sourceTree = "<group>"; };
+		AD9F05B138CB24D6816DDA01062444CD /* AWELoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWELoader-prefix.pch"; sourceTree = "<group>"; };
+		AEDEDEBD99CAD79417E6D7625F91D9BE /* Pods-AWELoaderDemoiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AWELoaderDemoiOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2EFEDED14242FC11513C03962F8D8B7 /* Pods-AWELoaderDemoiOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AWELoaderDemoiOS-resources.sh"; sourceTree = "<group>"; };
+		B52337AE0F1E1E99BBE0CA50FB2BD22F /* AWELoaderStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWELoaderStore.m; path = AWELoader/Classes/AWELoaderStore.m; sourceTree = "<group>"; };
+		BF24EAB9AFA96E5A2BB34B72D42F9126 /* AWELoaderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AWELoaderInternal.h; sourceTree = "<group>"; };
+		C05D03429D0B9951585F8A7860795BDC /* AWELoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AWELoader.framework; path = AWELoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAC1CE6E32491E1254F0F61B4601864 /* AWELoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AWELoader.xcconfig; sourceTree = "<group>"; };
+		D69A2F85493D2863745B633620835AD0 /* Pods-AWELoaderDemoiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AWELoaderDemoiOS-umbrella.h"; sourceTree = "<group>"; };
+		ED3DB8F675CFCBDDE92A28008406F61E /* AWEEntryItemBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWEEntryItemBase.m; path = AWELoader/Classes/AWEEntryItemBase.m; sourceTree = "<group>"; };
+		F35F5E6D815BE5EFF604A20E0E352A5D /* AWELoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWELoader-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416F018A999C172E5AFE3E6AB316E111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0804D5FEC2822AAB68AEFEA87A8F5F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3075E7C33998A4E71D7E6F34539E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F98AD9C06A3BCA382C894EF7F46E187 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C339EDA3B508D06426FA0AC64F9A7C1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3A3CDA110F8B7ADE4F86102A0F8036CB /* AWELoader.podspec */,
+				2D671C3219285B062CC1E27E40B3ACCB /* LICENSE */,
+				96D72233BF94E1710C6838C89F153B9A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		45D39B1FA3FC9A20EE74B3302FD8D4A0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BD3A98A5B2566B8F20AFDFB6AA1F644 /* AWELoader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				45D39B1FA3FC9A20EE74B3302FD8D4A0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A3E86C74C6729010C3563F47EA8E7917 /* Products */,
+				D2511DFE0CC2BD0F2FAF611504EB3358 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD3A98A5B2566B8F20AFDFB6AA1F644 /* AWELoader */ = {
+			isa = PBXGroup;
+			children = (
+				ED3DB8F675CFCBDDE92A28008406F61E /* AWEEntryItemBase.m */,
+				80C9296B69C5DA4FB6D0D5C85834FEEC /* AWELoaderStore.h */,
+				B52337AE0F1E1E99BBE0CA50FB2BD22F /* AWELoaderStore.m */,
+				456CF2DAA56873ACC03A19D5C01B9CF1 /* AWELoadManager.m */,
+				C58140C759FDD78975428D150321F384 /* Header */,
+				2C339EDA3B508D06426FA0AC64F9A7C1 /* Pod */,
+				C43F6D6FED7414BE2CBD4AD5FDCA8E3A /* Support Files */,
+			);
+			name = AWELoader;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A3E86C74C6729010C3563F47EA8E7917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05D03429D0B9951585F8A7860795BDC /* AWELoader.framework */,
+				404DFD4713530C5E10CE0BC0845EB950 /* Pods_AWELoaderDemoiOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2ACB0777BDEFCFD6330DA4D6D2CCC4B /* Pods-AWELoaderDemoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				9447FC02B3E840DAA77CA33F09B63CFF /* Info.plist */,
+				5A1DFD18E63434004A643B59EE011BEB /* Pods-AWELoaderDemoiOS.modulemap */,
+				1C2A0599E2A50C61A7E1F18D91DF5C85 /* Pods-AWELoaderDemoiOS-acknowledgements.markdown */,
+				AEDEDEBD99CAD79417E6D7625F91D9BE /* Pods-AWELoaderDemoiOS-acknowledgements.plist */,
+				975813D2D74333E1E4D10BBB9D146BA4 /* Pods-AWELoaderDemoiOS-dummy.m */,
+				4FCC091A34F04D25E7601FFF952D7258 /* Pods-AWELoaderDemoiOS-frameworks.sh */,
+				B2EFEDED14242FC11513C03962F8D8B7 /* Pods-AWELoaderDemoiOS-resources.sh */,
+				D69A2F85493D2863745B633620835AD0 /* Pods-AWELoaderDemoiOS-umbrella.h */,
+				38E6660BC4A7C494774813207930AB54 /* Pods-AWELoaderDemoiOS.debug.xcconfig */,
+				504F9F59B3354FAD25FF0BEE6EF7B805 /* Pods-AWELoaderDemoiOS.release.xcconfig */,
+			);
+			name = "Pods-AWELoaderDemoiOS";
+			path = "Target Support Files/Pods-AWELoaderDemoiOS";
+			sourceTree = "<group>";
+		};
+		C43F6D6FED7414BE2CBD4AD5FDCA8E3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B5F757B39EDCC35071CBC16A18C6A39 /* AWELoader.modulemap */,
+				CAAC1CE6E32491E1254F0F61B4601864 /* AWELoader.xcconfig */,
+				4E24199070ABBD2821BE97B8A56358C0 /* AWELoader-dummy.m */,
+				AD9F05B138CB24D6816DDA01062444CD /* AWELoader-prefix.pch */,
+				F35F5E6D815BE5EFF604A20E0E352A5D /* AWELoader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/AWELoader";
+			sourceTree = "<group>";
+		};
+		C58140C759FDD78975428D150321F384 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				9F7497944C7F035FBEAC9BD0DD36C3EE /* AWEEntryItemBase.h */,
+				93FB8D819A33F4A8B3F321F8F4B788F3 /* AWELoader.h */,
+				BF24EAB9AFA96E5A2BB34B72D42F9126 /* AWELoaderInternal.h */,
+				A6CBB7CFD011C8CD33FE1326581A1C6D /* AWELoadManager.h */,
+				0CEA52CA61B222D0DC75CAF21DF96DCA /* AWEmetamacros.h */,
+			);
+			name = Header;
+			path = AWELoader/Classes/Header;
+			sourceTree = "<group>";
+		};
+		D2511DFE0CC2BD0F2FAF611504EB3358 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2ACB0777BDEFCFD6330DA4D6D2CCC4B /* Pods-AWELoaderDemoiOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09FDED04D974F662ACA205B66E562A37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC6C07E47678EB83350ECB53F7023E1 /* AWEEntryItemBase.h in Headers */,
+				81DC710E78E00715F87D9544B14B50FD /* AWELoader-umbrella.h in Headers */,
+				BECB92140319C16BB4AC476E584C537E /* AWELoader.h in Headers */,
+				2940A0F15DDB02C534F1C2A6367B54C7 /* AWELoaderInternal.h in Headers */,
+				DAE114FC5945E163217BF9BBEAC4DF2C /* AWELoaderStore.h in Headers */,
+				F18C9CC8DDF0D1AAC68E28A84141C78E /* AWELoadManager.h in Headers */,
+				7A9B62CFE4D346969744AB3E1AE893C6 /* AWEmetamacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD056B356FBEC0FEFFDC9120A42990A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFD793F1F1211E3E1B7A4D3E1B22BBB /* Pods-AWELoaderDemoiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C89DCF09372E8114FEA18A53F58EE585 /* AWELoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377649D748455C84E6BFCEDE53D70214 /* Build configuration list for PBXNativeTarget "AWELoader" */;
+			buildPhases = (
+				09FDED04D974F662ACA205B66E562A37 /* Headers */,
+				2A0DE77DAB0DF5956D8E878C4F2C6EE5 /* Sources */,
+				8B3075E7C33998A4E71D7E6F34539E35 /* Frameworks */,
+				6ED9F2F4D95CB7B99B6B493BDB4DC674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWELoader;
+			productName = AWELoader;
+			productReference = C05D03429D0B9951585F8A7860795BDC /* AWELoader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF03B5E9E7D5170888CE79749CC36CCC /* Pods-AWELoaderDemoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40D37DE12759E4ED98D7E7661D3905D /* Build configuration list for PBXNativeTarget "Pods-AWELoaderDemoiOS" */;
+			buildPhases = (
+				BD056B356FBEC0FEFFDC9120A42990A2 /* Headers */,
+				0AC7FD4A1A1B8545BBDBFB6907519FF3 /* Sources */,
+				416F018A999C172E5AFE3E6AB316E111 /* Frameworks */,
+				22A532C58B84FFB6C25963BD1D94C880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BED174A2FD63E6549267116E332B064 /* PBXTargetDependency */,
+			);
+			name = "Pods-AWELoaderDemoiOS";
+			productName = "Pods-AWELoaderDemoiOS";
+			productReference = 404DFD4713530C5E10CE0BC0845EB950 /* Pods_AWELoaderDemoiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A3E86C74C6729010C3563F47EA8E7917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C89DCF09372E8114FEA18A53F58EE585 /* AWELoader */,
+				FF03B5E9E7D5170888CE79749CC36CCC /* Pods-AWELoaderDemoiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A532C58B84FFB6C25963BD1D94C880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ED9F2F4D95CB7B99B6B493BDB4DC674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC7FD4A1A1B8545BBDBFB6907519FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF62642C2CA8FF366923E165B3ADF97B /* Pods-AWELoaderDemoiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0DE77DAB0DF5956D8E878C4F2C6EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7262ADC5DDE3665E4E72D5E7DBD4C6 /* AWEEntryItemBase.m in Sources */,
+				E52A48EBCF7E28264A41E7C58EC766C7 /* AWELoader-dummy.m in Sources */,
+				951E4C0635E9DD0D482F13B5A27B446B /* AWELoaderStore.m in Sources */,
+				A34D2C7EAD461E272A15D046DF5A2736 /* AWELoadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BED174A2FD63E6549267116E332B064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AWELoader;
+			target = C89DCF09372E8114FEA18A53F58EE585 /* AWELoader */;
+			targetProxy = 53C4952AC53C05E2DE7F671CEDFC45F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F831A4CE8796E1C0A90E614246B00A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E6660BC4A7C494774813207930AB54 /* Pods-AWELoaderDemoiOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AWELoaderDemoiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AWELoaderDemoiOS/Pods-AWELoaderDemoiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1402D31D1AD29A04ADCE9CAFE07C084F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAAC1CE6E32491E1254F0F61B4601864 /* AWELoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AWELoader/AWELoader-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/AWELoader/AWELoader.modulemap";
+				PRODUCT_MODULE_NAME = AWELoader;
+				PRODUCT_NAME = AWELoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		769631E0516D8EC385B5BB7F1EA9EFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAAC1CE6E32491E1254F0F61B4601864 /* AWELoader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AWELoader/AWELoader-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/AWELoader/AWELoader.modulemap";
+				PRODUCT_MODULE_NAME = AWELoader;
+				PRODUCT_NAME = AWELoader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D7ADCCDFE7A8BA1DA108933755D614C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504F9F59B3354FAD25FF0BEE6EF7B805 /* Pods-AWELoaderDemoiOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AWELoaderDemoiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AWELoaderDemoiOS/Pods-AWELoaderDemoiOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377649D748455C84E6BFCEDE53D70214 /* Build configuration list for PBXNativeTarget "AWELoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				769631E0516D8EC385B5BB7F1EA9EFD4 /* Debug */,
+				1402D31D1AD29A04ADCE9CAFE07C084F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40D37DE12759E4ED98D7E7661D3905D /* Build configuration list for PBXNativeTarget "Pods-AWELoaderDemoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F831A4CE8796E1C0A90E614246B00A4 /* Debug */,
+				9D7ADCCDFE7A8BA1DA108933755D614C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

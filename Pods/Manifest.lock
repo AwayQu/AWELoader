@@ -1,0 +1,16 @@
+PODS:
+  - AWELoader (0.1.0)
+
+DEPENDENCIES:
+  - AWELoader (from `./`)
+
+EXTERNAL SOURCES:
+  AWELoader:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  AWELoader: 553f83ea8a8802a5941d079a23ac30197c7b6aa1
+
+PODFILE CHECKSUM: abca5aa7ca9ddc71a037608d7940ba987f6145e4
+
+COCOAPODS: 1.5.3

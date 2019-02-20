@@ -1,0 +1,24 @@
+{
+  "name": "AWELoader",
+  "version": "0.1.0",
+  "summary": "A short description of AWELoader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://awayqu.github.io",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AwayQu": "awayquym@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AwayQu/AWELoader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AWELoader/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "static_framework": true
+}

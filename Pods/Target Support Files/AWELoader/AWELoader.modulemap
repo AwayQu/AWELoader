@@ -1,0 +1,6 @@
+framework module AWELoader {
+  umbrella header "AWELoader-umbrella.h"
+
+  export *
+  module * { export * }
+}
