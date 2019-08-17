@@ -6,7 +6,13 @@
 //  Copyright © 2019 AwayQu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#if TARGET_OS_IPHONE
+    #import <UIKit/UIKit.h>
+#elif TARGET_OS_MAC
+    #import <AppKit/AppKit.h>
+#else
+    #import <UIKit/UIKit.h>
+#endif
 
 //! Project version number for AWELoader.
 FOUNDATION_EXPORT double AWELoaderVersionNumber;
